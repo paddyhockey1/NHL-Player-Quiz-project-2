@@ -313,16 +313,17 @@ const mdQuizQuestions = [
   
     function resetState() {
     nextButton.style.display = "none";
-    while (answerButtons.firstChild) {
+    while (answerButtons.firstChild) { 
     answerButtons.removeChild(answerButtons.firstChild);
     }
     }
-  
+
     function selectAnswer(e) {
-    const selectedButton = e.target;
-    const correct = selectedButton.dataset.correct === "true";
-    const answer = currentQuestions[currentQuestionIndex].answers.find(ans => ans.text === selectedButton.innerText);
-  
+        const selectedButton = e.target;
+        const correct = selectedButton.dataset.correct === "true";
+        const answwer = currentQuestions[currentQuestionsIndex].answers.find(ans => ans.text === selectedButton.innerText);
+    
+        
   
     if (answer.correct) {
     score++;
