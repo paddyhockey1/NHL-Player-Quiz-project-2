@@ -27,12 +27,7 @@ body {
   font-family: impact;
 
   }
-  .header-link {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit the color from the parent element */
-  display: inline-block; /* Ensure it behaves like a block-level element for layout */
-  }
-
+  
   .hidden {
   display: none;
   }
@@ -58,12 +53,11 @@ body {
   }
 
   .ducks-button button, .nhl-button button, .hof-button button, .md-button button {
-  /*--border: 3px solid gainsboro; /* 3px wide solid border */
-  /*--border-radius: 10px; /* 10px border radius for curved corners */
+  
   height: 40px;
-  width: 200px; /* Set width to a consistent value */
+  width: 200px; 
   font-size: larger;
-  /* cursor: pointer; */
+  
   }
 
   /*--common-elements-for-both-above--*/
@@ -228,14 +222,8 @@ body {
   margin: 10px 0;
   text-align: center;
   border-radius: 4px;
-  /* cursor: pointer; */
-  /*--transition: all 0.1s;--*/
+  
     }
-
-  /* .btn:hover { 
- background: rgb(228,229,230);
-  color: black; 
-  } - no hovering on mobile. affects button colour on mobile */
 
   #next-btn {
   background: #001e4d;
@@ -249,10 +237,10 @@ body {
  }
   
 
-  .correct {
+  /* .correct {
   background-color: white;
   color: black;
-  font-weight: bold;
+  font-weight: bold; */
 
   }
 
@@ -265,7 +253,7 @@ body {
   .btn {
   margin: 5px;
   padding: 10px;
-  /* cursor: pointer; */
+  
   }
 
 #question img{
