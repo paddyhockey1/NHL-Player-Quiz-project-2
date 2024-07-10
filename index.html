@@ -1,70 +1,81 @@
+
+
+<!--////////////////////////////////////////////////////////-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <met name="description" content="Multiple choice NHL and Hall of Fame player quiz"></met>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NHL Player Quiz</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="icon" href="assets/images/nhl-logo.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Multiple choice NHL player quiz">
+<title>NHL Player Quiz</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/images/ducks-logo.jpg" type="image/png">
+
 </head>
-<body>
-
-    <h1 class="header">NHL Player Quiz</h1>
-
-    <div class="container">
-        <div id="ducks-content" class="ducks">
-            <h3 class="ducks-head">Anaheim Ducks</h3>
-                <img class="ducks-image" src="assets/images/ducks-logo.jpg" alt="Anaheim Ducks Logo">
-                <div class="ducks-button">
-                   <button class="ducks-quiz">Ducks</button>
-                </div>
-        </div>
-    </div>
-
-    <div class="md-content">
-        <h3 class="md-head">Mighty Ducks</h3>
-        <img class="md-image" src="assets/images/mighty-ducks-logo.jpg" alt="Original Mighty Ducks Logo">
-        <div class="md-button">
-            <button class="md-quiz">Mighty Ducks</button>
-        </div>
-    </div>
-
-    <div class="nhl-content">
-        <h3 class="nhl-head">NHL</h3>
-        <img class="nhl-image" src="assets/images/nhl-logo.png" alt="National Hockey League Logo">
-        <div class="nhl-button">
-            <button class="nhl-quiz">NHL</button>
-        </div>
-    </div>
-
-    <div class="hof-content">
-        <h3 class="hof-head">Legends</h3>
-        <img class="hof-image" src="assets/images/hhof.jpg" alt="Hockey Hall of Fame Logo">
-        <div class="hof-button">
-            <button class="hof-quiz">Legends</button>
-        </div>
-        </div>
-
-        <div id="quiz-container" class="hidden">
-
-            <div class="stop-quiz-cont">
-                <div class="score-area">
-                <div class="results">
-                    <p class="scores">Correct Answers <span id="score">0</span></p>
-                    <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-                </div>
-            </div>
-        </div>
-
-            <div id="question">
-                <div id="answer-buttons"></div>
-                <a href="index.html" id="stop-quiz" class="hidden">Home</a>
-            </div>
-
-            <button id="next-btn" class="hidden">Next Question</button>
 
 
-    <script src="assets/js/script.js"></script>
+
+<h1 class="header">NHL Player Quiz</h1>
+
+<div class="container">
+<div id="ducks-content" class="ducks">
+<h3 class="ducks-head">Anaheim Ducks</h3>
+<img class="ducks-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Anaheim_Ducks_logo_2024.svg/330px-Anaheim_Ducks_logo_2024.svg.png" alt="Anaheim Ducks Logo">
+<div class="ducks-button">
+<button class="ducks-quiz">Ducks</button>
+</div>
+</div>
+
+
+<div class="md-content">
+<h3 class="md-head">Mighty Ducks</h3>
+<img class="md-image" src="assets/images/mighty-ducks-logo.jpg" alt="">
+<div class="md-button">
+<button class="md-quiz">Mighty Ducks</button>
+</div>
+</div>
+
+
+<div class="nhl-content">
+<h3 class="nhl-head">NHL</h3>
+<img class="nhl-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/05_NHL_Shield.svg/285px-05_NHL_Shield.svg.png" alt="National Hockey League Logo">
+<div class="nhl-button">
+<button class="nhl-quiz">NHL</button>
+</div>
+</div>
+</div>
+
+
+<div class="hof-content">
+<h3 class="hof-head">Legends</h3>
+<img class="hof-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Hockey_Hall_of_Fame_Logo.svg/474px-Hockey_Hall_of_Fame_Logo.svg.png" alt="National Hockey League Logo">
+<div class="hof-button">
+<button class="hof-quiz">Legends</button>
+</div>
+</div>
+
+<div id="quiz-container" class="hidden">
+
+<div class="stop-quiz-cont">
+<div class="score-area">
+<div class="times">
+<p class="scores">Correct Answers <span id="score">0</span></p>
+<p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+</div>
+</div>
+
+
+<div id="question"></div>
+<div id="answer-buttons"></div>
+<a href="index.html" id="stop-quiz" class="hidden">Home</a>
+</div>
+
+<button id="next-btn" class="hidden">Next Question</button>
+
+
+<script src="assets/js/script.js"></script>
 </body>
+
 </html>
