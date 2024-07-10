@@ -209,21 +209,29 @@ const mdQuizQuestions = [
         },
     ];
 
-    document.addevent AudioListener("DOMContentLoaded", () => {
-    const ducksQuizButton = document.querySelector(".ducks-quiz");
-    const mdQuizButton  = document.querySelector(".md-quiz");
-    const nhlQuizButton = document.querySelector(".nhl-quiz");
-    const hofQuizButton = document.querySelector(".hof-quiz");
-    const ducksContent = document.getElementById("ducks-content");    
-    const mdcontent = document.querySelector(".md-content");
-    const nhlContent = document.querySelector(".nhl-content");
-    const hofContent = document.querySelector(".hof-content");
-    const quizContainer = documnent.getElementById("quiz-container");
-    const scoreArea = document.querySelector(".score-area");
-    const questionElement = document.getElementById("question");
-    const answerButtons = document.getElementById("answer-buttons");
+    // document.addEventListener("DOMContentLoaded", () => {
+    // const ducksQuizButton = document.querySelector(".ducks-quiz");
+    // const mdQuizButton  = document.querySelector(".md-quiz");
+    // const nhlQuizButton = document.querySelector(".nhl-quiz");
+    // const hofQuizButton = document.querySelector(".hof-quiz");
+    // const ducksContent = document.getElementById("ducks-content");    
+    // const mdcontent = document.querySelector(".md-content");
+    // const nhlContent = document.querySelector(".nhl-content");
+    // const hofContent = document.querySelector(".hof-content");
+    // const quizContainer = documnent.getElementById("quiz-container");
+    // const scoreArea = document.querySelector(".score-area");
+    // const questionElement = document.getElementById("question");
+    // const answerButtons = document.getElementById("answer-buttons");
+    // const nextButton = document.getElementById("next-btn");
+    // const correctScore = document.getElementById("score");
+    // const incorrectScore = document.getElementById("incorrect");
+    // const stopQuizButton = document.getElementById("stop-quiz");
 
-    })
+    // let currentQuestionIndex = 0;
+    // let currentQuestions = [];
+    // let score = 0;
+    // let incorrectAnswers = 0;
+    // // })
   
     document.addEventListener("DOMContentLoaded", () => {
     const ducksQuizButton = document.querySelector(".ducks-quiz");
