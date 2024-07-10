@@ -344,19 +344,20 @@ const mdQuizQuestions = [
         }
     }, 1000);
 
-    updateScores();
+    updateScores(); 
+    }
+
+    function nextQuestion() {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < currentQuestions.length) {
+            showQuestion();
+        } else {
+            alert(`Quiz finished! YOur Score is ${score}/${currentQuestionIndex.length}.`);
+            startQuiz(currentQuestions);
+        }
+        updateScores();
     }
   
-    function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < currentQuestions.length) {
-    showQuestion();
-    } else {
-    alert(`Quiz finished! Your score is ${score}/${currentQuestions.length}.`);
-    startQuiz(currentQuestions);
-    }
-    updateScores();
-    }
   
     function setStatusClass(element, correct) {
     clearStatusClass(element);
