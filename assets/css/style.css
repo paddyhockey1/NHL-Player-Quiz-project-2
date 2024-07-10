@@ -170,3 +170,70 @@ hidden {
 }
 
 /*--all-hof-elements-above-here--*/
+.score-area {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.scores {
+    margin: 5px;
+    font-size: large;
+}
+
+.results {
+    color: rgb(228,229,230);
+    background-color: black;
+    padding: 10px;
+    border: 1px solid rgb(228,229,230);
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#quiz-container {
+    text-align: center;
+}
+
+/*--general-quiz-elements-above--*/
+
+.btn {
+    background-color: black;
+    color: rgb(228,229,230);
+    font-weight: bold;
+    width: 90%;
+    border: 2px solid rgb(228,229,230);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgb(228,229,230);
+    color: black;
+}
+
+#next-btn {
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 40px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    display: none;
+}
+
+.correct {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+/*--all-button-elements-above-here--*/
