@@ -1,59 +1,54 @@
-
-
-
 const ducksQuizQuestions = [
     {
-    imagePath: 'assets/images/mctavish.jpg',
+        imagePath: 'assets/images/mctavish.jpg',
+        answers: [
+            { text: "Troy Terry", correct: false },
+            { text:"Mason McTavish", correct: true }, //Correct Answer//
+            { text: "John Gibson", correct: false },
+            { text: "Cam Fowler", correct: false }
+        ]
+    },
+
+    {
+        imagePath: 'assets/images/gibson.jpg',
+        answers: [
+            { text: "John Gibson", correct: true }, //Correct Answer//
+            { text:"Jacob Silfverberg", correct: false },
+            { text: "Leo Carlsson", correct: false },
+            { text: "Brock McGinn", correct: false }
+        ]
+    },
+
+    {
+    imagePath: 'assets/images/fowler.jpg',
     answers: [
-    { text: "Troy Terry", correct: false },
-    { text: "Mason McTavish", correct: true }, /*Correct Answer*/
-    { text: "John Gibson", correct: false },
-    { text: "Cam Fowler", correct: false }
+        { text: "Olen Zellweger", correct: false},
+        { text: "Bo Groulx", correct: false },
+        { text: "Cam Fowler", correct: true }, //Correct Answer //
+        { text: "Lukas Dostal", correct: false }
     ]
     },
   
-    {
-    imagePath: 'ssets/images/gibson.jpg',
-    answers: [
-    { text: "John Gibson", correct: true }, /*Correct Answer*/
-    { text: "Jackson LaCombe", correct: false },
-    { text: "Leo Carlsson", correct: false },
-    { text: "Brock McGlinn", correct: false }
-    ]
-    },
-  
-    {
-    imagePath: 'ssets/images/fowler.jpg',
-    answers: [
-    { text: "Olen Zellweger", correct: false },
-    { text: "Bo Groulx", correct: false },
-    { text: "Cam Fowler", correct: true }, /*Correct Answer*/
-    { text: "Lukas Dostal", correct: false }
-    ]
-    },
-  
-    {
-    imagePath: 'ssets/images/gudas.jpg',
+    { 
+    imagePath: 'assets/images/gudas.jpg',
     answers: [
     { text: "Ross Johnston", correct: false },
     { text: "Pavel Mintyukov", correct: false },
     { text: "Trevor Zegras", correct: false },
-    { text: "Radko Gudas", correct: true } /*Correct Answer*/
-    ]
-    },
-  
-  
-    {
+    { text: "Radko Gudas", correct: true } //Correct Answer//
+    ]    
+},
+
+    { 
     imagePath: 'assets/images/zegras.jpg',
     answers: [
-    { text: "Olen Zellweger", correct: false },
-    { text: "Bo Groulx", correct: false },
-    { text: "Trevor Zegras", correct: true },
-    { text: "Lukas Dostal", correct: false }
+        { text: "Olen Zellweger", correct: false },
+        { text: "Alex Killorn", correct: false },
+        { text: "Trevor Zegras", correct: true }, //Correct Answer//
+        { text: "Brett Leason", correct: false }
     ]
     },
-  
-    ];
+];
   
     /*--ana-hard-questions--*/
   
