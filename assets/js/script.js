@@ -323,13 +323,17 @@ const mdQuizQuestions = [
         const correct = selectedButton.dataset.correct === "true";
         const answwer = currentQuestions[currentQuestionsIndex].answers.find(ans => ans.text === selectedButton.innerText);
     
-        
-  
     if (answer.correct) {
-    score++;
+        score++;
     } else {
-    incorrectAnswers++;
+        incorrectAnswer++;
     }
+  
+    // if (answer.correct) {
+    // score++;
+    // } else {
+    // incorrectAnswers++;
+    // }
   
   
     Array.from(answerButtons.children).forEach(button => {
