@@ -259,24 +259,38 @@ const mdQuizQuestions = [
     quizContainer.classList.add("hidden");
     stopQuizButton.classList.add("hidden");
   
-  
-  
-  
-    ducksQuizButton.addEventListener("click", () => {
-    startQuiz(ducksQuizQuestions);
-    });
-
-    mdQuizButton.addEventListener("click", () => {
+  mdQuizButton.addEventListener("click", () => {
     startQuiz(mdQuizQuestions);
-    });
-  
-    nhlQuizButton.addEventListener("click", () => {
+  });
+
+  nhlQuizButton.addEventListener("click", () => {
     startQuiz(nhlQuizQuestions);
-    });
-  
-    hofQuizButton.addEventListener("click", () => {
+  });
+
+  hofQuizButton.addEventListener("click", () => {
     startQuiz(hofQuizQuestions);
-    });
+  });
+
+//   ducksQuizButton.addEventListener("click", () => {
+//     startQuiz(ducksQuizQuestions);
+//   });
+  
+  
+//     ducksQuizButton.addEventListener("click", () => {
+//     startQuiz(ducksQuizQuestions);
+//     });
+
+//     mdQuizButton.addEventListener("click", () => {
+//     startQuiz(mdQuizQuestions);
+//     });
+  
+//     nhlQuizButton.addEventListener("click", () => {
+//     startQuiz(nhlQuizQuestions);
+//     });
+  
+//     hofQuizButton.addEventListener("click", () => {
+//     startQuiz(hofQuizQuestions);
+//     });
   
     function startQuiz(questionsArray) {
     // Hide the initial content and display the quiz container
