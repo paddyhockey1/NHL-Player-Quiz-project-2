@@ -255,10 +255,11 @@ const mdQuizQuestions = [
     let currentQuestions = [];
     let score = 0;
     let incorrectAnswers = 0;
-  
-    // Initially hide the quiz container and the "Stop Quiz" button
+
     quizContainer.classList.add("hidden");
     stopQuizButton.classList.add("hidden");
+  
+  
   
   
     ducksQuizButton.addEventListener("click", () => {
