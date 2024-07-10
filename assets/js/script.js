@@ -366,13 +366,14 @@ const mdQuizQuestions = [
             element.classList.add("wrong");
         }
     }
+
+        function clearStatusClass(element) {
+            element.classList.remove("correct");
+            element.classList.remove("wrong");
+        }
+        function updateScores() {
+            correctScore.textContent = score;
+            incorrectScore.textContent = incorrectAnswers;
+        }
+        });
   
-    function clearStatusClass(element) {
-    element.classList.remove("correct");
-    element.classList.remove("wrong");
-    }
-    function updateScores() {
-    correctScore.textContent = score;
-    incorrectScore.textContent = incorrectAnswers;
-    }
-    });
