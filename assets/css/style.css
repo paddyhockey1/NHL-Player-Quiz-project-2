@@ -36,20 +36,6 @@ body {
     display: none;
     }
 
-    .foot {
-      height: 100px;
-      width: 100%;
-      background-color: black;
-    }
-
-    .foot-h5 {
-      color: white;
-      font-size: 10px;
-      margin-top: 45px;
-      margin-bottom: 45px;
-      text-align: center;
-    }
-  
     /*--general-elements-above--*/
   
     .ducks, .nhl-content, .hof-content, .md-content {
@@ -361,4 +347,4 @@ body {
     }
     
   }
-    }
+}
