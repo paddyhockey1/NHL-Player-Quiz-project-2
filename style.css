@@ -52,3 +52,33 @@ body {
 }
 
 /*--all-ducks-elements-above-here--*/
+
+/*--0,106,101 71,34,67--*/
+.md-head {
+    color: white;
+    -webkit-text-stroke: 1px rgb(0,106,101);
+    text-shadow: 2px 2px rgb(71,34,67);
+    text-align: center;
+    font-size: 40px;
+    font-family: impact;
+    text-transform: uppercase; 
+}
+
+.md-image {
+    height: 350px;
+    width: 350px;
+    max-width: 600px;
+    margin: auto 2px;
+}
+
+.md-quiz {
+    color: white;
+    background-color: rgb(0,106,101);
+    border: 1px solid rgb(71,34,67);
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: impact;
+}
+
+/*--all-md-elements-above-here--*/
