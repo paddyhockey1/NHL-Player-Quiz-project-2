@@ -338,7 +338,7 @@ const mdQuizQuestions = [
         if (currentQuestionIndex < currentQuestions.length - 1) {
             nextQuestion();
         } else {
-            alert(`Quiz Finished! Your Score is ${score}/${currentQuestion.length}.`);  
+            alert(`Quiz Finished! Your Score is ${score}/${currentQuestions.length}.`);  
         
             resetQuiz();
         }
