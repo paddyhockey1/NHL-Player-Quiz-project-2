@@ -227,9 +227,7 @@ body {
     margin: 10px 0;
     text-align: center;
     border-radius: 4px;
-    /* cursor: pointer; */
-    /*--transition: all 0.1s;--*/
-      }
+    }
   
     .btn:hover { 
    background: rgb(228,229,230);
@@ -296,26 +294,13 @@ body {
     margin-top: 30px;
   
     }
-    /* .stop-quiz-cont {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  
-    }
-    .hidden-text {
-    visibility: hidden;
-    } */
-  
+   
     .container {
     width:98%;
     }
   
     /*--general-quiz-elements-above--*/
-  
-  
-    /*Media query: tablets and larger (768px and up*/
+
     @media screen and (min-width:750px) {
     #question img {
     height: 350px;
@@ -337,8 +322,6 @@ body {
   
     }
   
-  
-    /*Larger devices (laptops and desktops 992px and up )*/
     @media screen and (min-width:950px) {
   
     #quiz-container {
