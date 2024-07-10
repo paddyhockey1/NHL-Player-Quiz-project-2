@@ -329,31 +329,21 @@ const mdQuizQuestions = [
         incorrectAnswer++;
     }
   
-    // if (answer.correct) {
-    // score++;
-    // } else {
-    // incorrectAnswers++;
-    // }
-  
-  
     Array.from(answerButtons.children).forEach(button => {
-    button.disabled = true;
-    setStatusClass(button, button.dataset.correct === "true");
+        button.disabled = true;
+        setStatusClass(button, button.dataset.correct === "true");
     });
   
-  
     setTimeout(() => {
-    if (currentQuestionIndex < currentQuestions.length - 1) {
-    nextQuestion();
-    } else {
-  
-    alert(`Quiz finished! Your score is ${score}/${currentQuestions.length}.`);
-  
-    resetQuiz();
-    }
+        if (currentQuestionIndex < currentQuestions.length - 1) {
+            nextQuestion();
+        } else {
+            alert(`Quiz Finished! Your Score is ${score}/${currentQuestion.length}.`);  
+        
+            resetQuiz();
+        }
     }, 1000);
-  
-  
+
     updateScores();
     }
   
