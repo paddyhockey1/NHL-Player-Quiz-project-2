@@ -236,6 +236,10 @@ hidden {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /*--all-button-elements-above-here--*/
 
 #stop-quiz {
@@ -291,7 +295,7 @@ hidden {
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 950px) {
     #quiz-container {
         margin-top: -15px;
     }
@@ -326,4 +330,4 @@ hidden {
       margin: auto 20px;
     }
   
-    }
+}}
