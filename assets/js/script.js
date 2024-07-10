@@ -157,57 +157,109 @@ const mdQuizQuestions = [
         },
     ];
 
-const hofQuizQuestions = [
-    {
-    imagePath: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQFrHn5DQp1kJuQ-Nh2bMcZqTp7k-p3wGwuEcoo-GgbqfAJNJV_',
-    answers: [
-    { text: "Bernie Parent", correct: false },
-    { text: "Billy smith", correct: false },
-    { text: "Tony Esposito", correct: false },
-    { text: "Rogie Vachon", correct: true } /*Correct Answer*/
-    ]
-    },
-  
-    {
-    imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8448000.png',
-    answers: [
-    { text: "Alex Delvecchio", correct: false },
-    { text: "Gordie Howe", correct: true }, /*Correct Answer*/
-    { text: "Stan Mikita", correct: false },
-    { text: "Mark Howe", correct: false }
-    ]
-    },
-  
-    {
-    imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8448321.png',
-    answers: [
-    { text: "Maurice Richard", correct: true }, /*Correct Answer*/
-    { text: "Guy Carbonneau", correct: false },
-    { text: "Ken Dryden", correct: false },
-    { text: "Jean Beliveau", correct: false }
-    ]
-    },
-  
-    {
-    imagePath: 'https://i0.wp.com/the-avocado.org/wp-content/uploads/2021/04/6B805F21-C7C7-444E-953F-16CED121CFFD.jpeg?resize=1020%2C768&ssl=1',
-    answers: [
-    { text: "Rogie Vachon", correct: false },
-    { text: "Vladislav Tretiak", correct: true }, /*Correct Answer*/
-    { text: "Gump Worsley", correct: false },
-    { text: "Glenn Hall", correct: false }
-    ]
-    },
-  
-    {
-    imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8450070.png',
-    answers: [
-    { text: "Phil Esposito", correct: false },
-    { text: "Derek Sanderson", correct: false },
-    { text: "Bobby Orr", correct: true }, /*Correct Answer*/
-    { text: "Reggie Leach", correct: false }
-    ]
-    },
+    const hofQuizQuestions = [
+        {
+            imagePath: 'assets/images/vachon.jpg',
+            answers: [
+                { text: "Bernie Parent", correct: false },
+                { text: "Billy Smith", correct: false },
+                { text: "Tony Esposito", correct: false },
+                { text: "Rogie Vachon", correct: true } // Correct Answer //
+            ]
+        },
+
+        {
+            imagePath: 'assets/images/howe.jpg',
+            answers: [
+                { text: "Alex Delvecchio", correct: false },
+                { text: "Stan Mikita", correct: false },
+                { text: "Gordie Howe", correct: true }, // Correct Answer //
+                { text: "Henri Richard", correct: false } 
+            ]
+        },
+
+        {
+            imagePath: 'assets/images/richard.jpg',
+            answers: [
+                { text: "Maurice Richard", correct: true }, //Correct Answer //
+                { text: "Guy Carbonneau", correct: false },
+                { text: "Ken Dryden", correct: false },
+                { text: "Jean Beliveau", correct: false }
+            ]
+        },
+
+        {
+            imagePath: 'assets/images/tretiak.jpg',
+            answers: [
+                { text: "Gerry Cheevers", correct: false },
+                { text: "Vladislav Tretiak", correct: true }, // Correct Answer //
+                { text: "Jacques Plante", correct: false },
+                { text: "Glenn Hall", correct: false }
+            ] 
+        },
+
+        {
+            imagePath: 'assets/images/orr.jpg',
+            answers: [
+                { text: "Phil Esposito", correct: false },
+                { text: "Derek Sanderson", correct: false },
+                { text: "Bobby Orr", correct: true }, // Correct Answer //
+                { text: "Reggie Leach", correct: false } 
+            ]
+        },
     ];
+
+// const hofQuizQuestions = [
+//     {
+//     imagePath: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQFrHn5DQp1kJuQ-Nh2bMcZqTp7k-p3wGwuEcoo-GgbqfAJNJV_',
+//     answers: [
+//     { text: "Bernie Parent", correct: false },
+//     { text: "Billy smith", correct: false },
+//     { text: "Tony Esposito", correct: false },
+//     { text: "Rogie Vachon", correct: true } /*Correct Answer*/
+//     ]
+//     },
+  
+//     {
+//     imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8448000.png',
+//     answers: [
+//     { text: "Alex Delvecchio", correct: false },
+//     { text: "Gordie Howe", correct: true }, /*Correct Answer*/
+//     { text: "Stan Mikita", correct: false },
+//     { text: "Mark Howe", correct: false }
+//     ]
+//     },
+  
+//     {
+//     imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8448321.png',
+//     answers: [
+//     { text: "Maurice Richard", correct: true }, /*Correct Answer*/
+//     { text: "Guy Carbonneau", correct: false },
+//     { text: "Ken Dryden", correct: false },
+//     { text: "Jean Beliveau", correct: false }
+//     ]
+//     },
+  
+//     {
+//     imagePath: 'https://i0.wp.com/the-avocado.org/wp-content/uploads/2021/04/6B805F21-C7C7-444E-953F-16CED121CFFD.jpeg?resize=1020%2C768&ssl=1',
+//     answers: [
+//     { text: "Rogie Vachon", correct: false },
+//     { text: "Vladislav Tretiak", correct: true }, /*Correct Answer*/
+//     { text: "Gump Worsley", correct: false },
+//     { text: "Glenn Hall", correct: false }
+//     ]
+//     },
+  
+//     {
+//     imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8450070.png',
+//     answers: [
+//     { text: "Phil Esposito", correct: false },
+//     { text: "Derek Sanderson", correct: false },
+//     { text: "Bobby Orr", correct: true }, /*Correct Answer*/
+//     { text: "Reggie Leach", correct: false }
+//     ]
+//     },
+//     ];
   
     document.addEventListener("DOMContentLoaded", () => {
     const ducksQuizButton = document.querySelector(".ducks-quiz");
