@@ -258,6 +258,10 @@ const mdQuizQuestions = [
 
     quizContainer.classList.add("hidden");
     stopQuizButton.classList.add("hidden");
+
+  ducksQuizButton.addEventListener("click", () => {
+        startQuiz(ducksQuizQuestions);
+      });
   
   mdQuizButton.addEventListener("click", () => {
     startQuiz(mdQuizQuestions);
@@ -270,9 +274,8 @@ const mdQuizQuestions = [
   hofQuizButton.addEventListener("click", () => {
     startQuiz(hofQuizQuestions);
   });
-  
+
     function startQuiz(questionsArray) {
-    // Hide the initial content and display the quiz container
     ducksContent.classList.add("hidden");
     mdContent.classList.add("hidden");
     nhlContent.classList.add("hidden");
