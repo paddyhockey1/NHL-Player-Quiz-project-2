@@ -268,3 +268,62 @@ hidden {
 .container {
     width: 98%;
 }
+
+@media screen and (min-width: 750px) {
+    #question-img {
+        height: 350px;
+        width: 350px;
+        max-width: 500px;
+    }
+
+
+.ducks-image, .md-image, .hof-image {
+    height: 350px;
+    width: 350px;
+    max-width: 500px;
+}
+
+.nhl-image {
+    height: 350px;
+    width: 300px;
+    max-width: 500px;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+    #quiz-container {
+        margin-top: -15px;
+    }
+
+    .container {
+        display: flex;
+    }
+}
+
+  @media screen and (max-width: 600px) {
+    .ducks-image, .md-image, .hof-image {
+        width: 200px;
+        height: 200px
+    }
+
+    .nhl-image {
+        width: 180px;
+        height: 200px;
+    }
+
+  
+    @media screen and(max-width:600px) {
+  
+    .ducks-image {
+    width: 200px;
+    height: 200px;
+    }
+  
+    .nhl-image{
+    width: 200px;
+    height: 200px;
+      margin: auto 20px;
+    }
+  
+    }
