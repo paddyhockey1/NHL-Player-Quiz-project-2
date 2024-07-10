@@ -321,12 +321,12 @@ const mdQuizQuestions = [
     function selectAnswer(e) {
         const selectedButton = e.target;
         const correct = selectedButton.dataset.correct === "true";
-        const answwer = currentQuestions[currentQuestionsIndex].answers.find(ans => ans.text === selectedButton.innerText);
+        const answer = currentQuestions[currentQuestionIndex].answers.find(ans => ans.text === selectedButton.innerText);
     
     if (answer.correct) {
         score++;
     } else {
-        incorrectAnswer++;
+        incorrectAnswers++;
     }
   
     Array.from(answerButtons.children).forEach(button => {
