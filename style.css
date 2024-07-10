@@ -82,3 +82,30 @@ body {
 }
 
 /*--all-md-elements-above-here--*/
+
+.nhl-head {
+    color: rgb(228,229,230);
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: impact;
+    text-transform: uppercase; 
+}
+
+.nhl-image {
+    height: 350px;
+    width: 300px;
+    max-width: 600px;
+    margin: auto 2px;
+}
+
+.nhl-quiz {
+    color: black;
+    background-color: rgb(228,229,230);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: impact;
+}
