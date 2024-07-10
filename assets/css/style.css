@@ -106,8 +106,8 @@ body {
      }
   
     .md-image {
-    Height: 350px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     max-width: 600px; /* Ensure the image fits within the device width */
     margin-left: 2px;
     margin-right: 2px;
@@ -145,7 +145,7 @@ body {
   
     .nhl-image {
     Height: 350px;
-    width: 300px;
+    width: 325px;
     max-width: 600px; /* Ensure the image fits within the device width */
     margin-left: 2px;
     margin-right: 2px;
@@ -231,10 +231,10 @@ body {
     /*--transition: all 0.1s;--*/
       }
   
-    /* .btn:hover { 
-    background: rgb(228,229,230);
-    color: black;
-    } - no hovering on mobile. affects button colour on mobile*/                               
+    .btn:hover { 
+   background: rgb(228,229,230);
+    color: black; 
+    } /*- no hovering on mobile. affects button colour on mobile*/                               
   
     #next-btn {
     background: #001e4d;
@@ -245,10 +245,8 @@ body {
     padding: 10px;
     margin: 20px auto 0;
     border-radius: 4px;
-    /* cursor: pointer; */
-    /* display: none; */
-    }
-    /* styles.css */
+   }
+    
   
     .correct {
     background-color: white;
@@ -320,16 +318,21 @@ body {
     /*Media query: tablets and larger (768px and up*/
     @media screen and (min-width:750px) {
     #question img {
-    height: 350px; /* Set a fixed height for all images */
-    width: 350px; /* Set a width relative to the parent container */
+    height: 350px;
+    width: 350px;
     max-width: 500px;
     }
   
-    .ducks-image, .nhl-image {
-    height: 350px; /* Set a fixed height for all images */
-    width: 300px; /* Set a width relative to the parent container */
+    .ducks-image, .md-image, .hof-image { 
+    height: 350px; 
+    width: 350px; 
     max-width: 500px;
     }
+
+    .nhl-image {
+      height: 350px;
+      width: 300px;
+      max-width: 500px;
   
   
     }
@@ -360,5 +363,5 @@ body {
     height: 200px;
       margin: auto 20px;
     }
-  
     }
+  }
