@@ -106,52 +106,56 @@ const mdQuizQuestions = [
 
     const nhlQuizQuestions = [
         {
-        imagePath: 'https://assets.nhle.com/mugs/nhl/20242025/PIT/8471675.png',
-        answers: [
-        { text: "Kris Letang", correct: false },
-        { text: "Rickard Rakell", correct: false },
-        { text: "Sidney Crosby", correct: true }, /*Correct Answer*/
-        { text: "Evkeni Malkin", correct: false }
-        ]
+            imagePath: 'assets/images/crosby.jpg',
+            answers: [
+            { text: "Kris Letang", correct: false },
+            { text: "Rickard Rakell", correct: false },
+            { text: "Sidney Crosby", correct: true }, // Correct Answer //
+            { text: "Evgeni Malkin", correct: false }
+            ]
         },
+
         {
-        imagePath: 'https://assets.nhle.com/mugs/nhl/20242025/EDM/8478402.png',
-        answers: [
-        { text: "Adam Henrique", correct: false },
-        { text: "Connor McDavid", correct: true }, /*Correct Answer*/
-        { text: "Ryan Nugent-Hopkins", correct: false },
-        { text: "Adam Draisaitl", correct: false }
-        ]
+            imagePath: 'assets/images/mcdavid.jpg',
+            answers: [
+            { text:"Adam Henrique", correct: false },
+            { text: "Connor McDavid", correct: true }, // Correct Answer //
+            { text: "Ryan Nugent-Hopkins", correct: false },
+            { text: "Adam Draisaitl", correct: false }
+        
+            ]
         },
+
         {
-        imagePath: 'https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png',
-        answers: [
-        { text: "Nikolai Kovalenko", correct: false },
-        { text: "Samuel Girard", correct: false },
-        { text: "Casey Mittlestadt", correct: false },
-        { text: "Nathan McKinnon", correct: true } /*Correct Answer*/
-        ]
+            imagePath: 'assets/images/mckinnon.jpg',
+            answers: [
+            { text:"Nikolai Kovalenko", correct: false },
+            { text: "Samuel Girard", correct: false }, 
+            { text: "Casey Mittlestadt", correct: false },
+            { text: "Nathan McKinnon", correct: true } // Correct Answer //
+            ]
         },
+
         {
-        imagePath: 'https://assets.nhle.com/mugs/nhl/20242025/WSH/8471214.png',
-        answers: [
-        { text: "Alexander Ovechkin", correct: true }, /*Correct Answer*/
-        { text: "TJ Oshie", correct: false },
-        { text: "Nicklas Backstrom", correct: false },
-        { text: "John Carlsson", correct: false }
-        ]
+            imagePath: 'assets/images/ovechkin.jpg',
+            answers: [
+            { text:"Alexander Ovechkin", correct: true }, // Correct Answer //
+            { text: "Nicklas Backstrom", correct: false }, 
+            { text: "TJ Oshie", correct: false },
+            { text: "John Carlsson", correct: false }
+            ]
         },
+
         {
-        imagePath: 'https://assets.nhle.com/mugs/nhl/latest/8474564.png',
-        answers: [
-        { text: "Andrei Vasilevskiy", correct: false },
-        { text: "Nikolai Kucherov", correct: false },
-        { text: "Steven Stamkos", correct: true }, /*Correct Answer*/
-        { text: "Victor Hedman", correct: false }
-        ]
-        }
-        ];
-  
+            imagePath: 'assets/images/stamkos.jpg',
+            answers: [
+            { text:"Andrei Vasilevskiy", correct: false },
+            { text: "Nikolai Kucherov", correct: false }, 
+            { text: "Steven Stamkos", correct: true }, // Correct Answer //
+            { text: "Victor Hedman", correct: false }
+            ]
+        },
+    ];
 
 const hofQuizQuestions = [
     {
