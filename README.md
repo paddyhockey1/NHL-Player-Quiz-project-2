@@ -128,6 +128,20 @@ When the user has completed a quiz, an alert window will appear on their screen 
 
 * Wave found no errors but recommended some improvements regarding contrast in the headings for elements. The program was reacting to the text-shadow property and the similiarity between that colour and the page background colour.
 
+## Bugs 
+
+* I encountered an issue a hover feature onn the mobile version would remain on the quiz's answer button after the page changed to the next question. I remedied this by simply removing the hover feature.
+
+* I encountered an issue with the score alert not appearing when a quiz was completed. The solution to this was to create a new div in the quiz-container element within the index page.
+
+## Unfixed Bugs
+
+* There is a visual bug within the Firefix browser where the background radiant appears sharper than in other browsers I have tested. I have tried: Chrome, Opera, Safari, Edge, and 
+  Duckduckgo. This error only seems to occur within the desktop browser as I deployed my page to the Firefox mobile browser and did not encounter any issues. After further research 
+  online, I found that this appeared to be a common issue with Firefox not displaying background-gradient patterns in a similar fashion to other browsers, both desktop and mobile.
+
+
+
 
 
 
