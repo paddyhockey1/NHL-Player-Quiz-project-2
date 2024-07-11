@@ -37,5 +37,50 @@ This quiz features some of the most popular players currently playing in the <ab
 
 This section quizzes the user on some of the greatest players to play hockey and are members of the Hockey Hall of Fame.
 
-![hof-home-page](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/3e296de1-acd1-427e-9706-a3571b672646)
+# Quiz Features
+
+## Multiple Choice
+
+Each quiz features five multiple choice questions. This allows the user with little to no hockey knowledge the chance to choose an option whether the player they are choosing is familiar to them or not. The user must choose who the player is based on the portrait contained above the potential answers.
+
+![multiple-choice](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/71d5d8ab-2c1d-451f-b4ab-eace1bfd8210)
+
+## Multiple Choice
+
+Each quiz features five multiple choice questions. This allows the user with little to no hockey knowledge the chance to choose an option whether the player they are choosing is familiar to them or not. The user must choose who the player is based on the portrait contained above the potential answers.
+
+![multiple-choice](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/71d5d8ab-2c1d-451f-b4ab-eace1bfd8210)
+
+
+## Correct Answer Display
+
+Should the user select the wrong answer, the correct answer will be the only button remaining allowing the user to easily identify the correct answer. The correct answer has an in-built CSS feature that displays the correct answer in a different colour to the answer tiles prior to the user's choice.
+
+![correct-answer](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/9cc635b3-6f6c-43de-ae7c-6d3ef321711f)
+
+## Score Indictator
+
+There is a constant visual indicator to the user of what their current score is. This is seperated into both correct and incorrect answers and how many of each they have so far scored.
+
+![Screenshot 2024-07-11 094320](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/a31b4e12-c513-410c-b9f9-3119dd879f16)
+
+## Clickable Home Button
+
+There is a home button, made responsive through javascript, located at the bottom of each quiz page that allows the user to return to the home page should they wish to. This can be clicked at any time throughout the quiz.
+
+![home-button](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/d4213921-c446-49ea-8096-02b22d1796f4)
+
+## Mobile Responsiveness 
+
+The site has been designed to be used on desktop, tablet and mobile devices. Both the homepage and the quiz page are responsive to the chosen device screen regardless of screen dimensions. This allows for a better user experience for users on mobile devices.
+
+![mobile-home-page](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/9f2af8b8-40a6-4b1d-bba1-56330aa18234) ![mobile-quiz-page](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/b3bc45b4-406e-42a5-ab62-11fe7a0e3288)
+
+## Score Alert Window
+
+When the user has completed a quiz, an alert window will appear on their screen indicating that the quiz is complete and their score.
+
+![window-alert](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/18192791-7287-4fbf-b86f-1ce16390addb)
+
+
 
