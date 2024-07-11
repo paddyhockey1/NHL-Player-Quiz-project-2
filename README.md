@@ -140,6 +140,8 @@ When the user has completed a quiz, an alert window will appear on their screen 
   Duckduckgo. This error only seems to occur within the desktop browser as I deployed my page to the Firefox mobile browser and did not encounter any issues. After further research 
   online, I found that this appeared to be a common issue with Firefox not displaying background-gradient patterns in a similar fashion to other browsers, both desktop and mobile.
 
+  * Some of the boxes that contain answers will not align directly under question image on Safari on iOS as they do in other mobile browsers. I have tried this in a number of mobile browsers such as: Chrome, Opera, Firefox and Duckduckgo and have not experienced this issue on any of them, even using these other browsers on mobile iOS.
+
  # Deployment
 
   * The site was created using Gitpod and deployed through Github using the repository "NHL-Player-Quiz".
