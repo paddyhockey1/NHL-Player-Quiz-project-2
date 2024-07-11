@@ -250,8 +250,12 @@ const mdQuizQuestions = [
   hofQuizButton.addEventListener("click", () => {
     startQuiz(hofQuizQuestions);
   });
-
-    function startQuiz(questionsArray) {
+    /**
+   * This function start quiz is responsible for hiding various elements
+   * after a quiz is selected as well as setting the score.
+   * @param {*} questionsArray 
+   */
+function startQuiz(questionsArray) {
     ducksContent.classList.add("hidden");
     mdContent.classList.add("hidden");
     nhlContent.classList.add("hidden");
@@ -268,8 +272,12 @@ const mdQuizQuestions = [
     showQuestion();
     updateScores();
     }
+    
   
-  
+   /**
+   * Shows question when quiz button is clicked
+   * @param(*) showQuestion
+   */  
     function showQuestion() {
     resetState();
     const currentQuestion = currentQuestions[currentQuestionIndex];
@@ -294,6 +302,11 @@ const mdQuizQuestions = [
     }
     }
 
+
+  /**
+   * Code used to select answer when corresponding button is pressed
+   * @param {*} e 
+   */
     function selectAnswer(e) {
         const selectedButton = e.target;
         const correct = selectedButton.dataset.correct === "true";
@@ -322,7 +335,10 @@ const mdQuizQuestions = [
 
     updateScores(); 
     }
-
+     /**
+   *  The function next question is responsible for activating next question
+   * * @param(*) nextQuestion
+   */
     function nextQuestion() {
         currentQuestionIndex++;
         if (currentQuestionIndex < currentQuestions.length) {
@@ -334,6 +350,11 @@ const mdQuizQuestions = [
         updateScores();
     }
 
+   /**
+   * This if elese function is responsible for assigning a correct or wrong value when question is answered
+   * @param {*} element 
+   * @param {*} correct 
+   */
     function setStatusClass(element, correct) {
         clearStatusClass(element);
         if (correct) {
@@ -342,11 +363,18 @@ const mdQuizQuestions = [
             element.classList.add("wrong");
         }
     }
-
+        /**
+   *  This function is responsible for removing correct or wrong value before next question
+   * @param {*} element 
+   */
         function clearStatusClass(element) {
             element.classList.remove("correct");
             element.classList.remove("wrong");
         }
+
+         /**
+   * This function is responsible for updating scores after question is completed
+   */
         function updateScores() {
             correctScore.textContent = score;
             incorrectScore.textContent = incorrectAnswers;
