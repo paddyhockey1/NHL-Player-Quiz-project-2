@@ -99,8 +99,8 @@ body {
    }
 
   .md-image {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   max-width: 600px; 
   margin-left: 2px;
   margin-right: 2px;
@@ -287,7 +287,7 @@ body {
   max-width: 500px;
   }
 
-  .ducks-image, .md-image, .hof-image { 
+  .ducks-image, .hof-image { 
   height: 350px; 
   width: 325px; 
   max-width: 500px;
@@ -317,13 +317,13 @@ body {
   @media screen and (max-width:600px) {
 
   .ducks-image, .md-image, .hof-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   }
 
   .nhl-image{
   width: 200px;
-  height: 200px;
+  height: 225px;
   margin: auto 20px;
   }}
 
