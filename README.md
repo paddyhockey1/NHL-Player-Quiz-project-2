@@ -96,6 +96,27 @@ When the user has completed a quiz, an alert window will appear on their screen 
 
 * A more visually appealing home page could be added with more advanced HTML and CSS coding to make the divs and images create a more uniform shape or design.
 
+*  # Testing
+
+## HTML
+
+[W3C Markup Validation Testing(https://validator.w3.org/) found no errors with my HTML code.
+
+![w3c-html](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/4949d952-f7ae-4e7a-adab-75b912573709)
+
+## CSS
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) found no errors with my CSS code.
+
+![w3c-css](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/7ac01615-5df1-40bd-b7e6-38d063ce35c4)
+
+## JavaScript
+
+[JSHint](https://jshint.com/) found no errors in the JavaScript Code.
+
+![js-hint](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/3efec5b4-e6f5-4e36-b1df-1bc66bfa8a00)
+
+
 
 
 
