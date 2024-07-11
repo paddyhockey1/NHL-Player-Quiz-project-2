@@ -8,8 +8,8 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: lightgray;
-  background-image: radial-gradient(circle at center center,           #fdfafa, lightgray), 		
-  repeating-radial-gradient(circle at center center, #fdfafa,         #fdfafa, 10px, 			
+  background-image: radial-gradient(circle at center center, #fdfafa, lightgray), 		
+  repeating-radial-gradient(circle at center center, #fdfafa,#fdfafa, 10px, 			
   transparent 20px, transparent 10px);
   background-blend-mode: multiply;
 
@@ -118,13 +118,9 @@ body {
 
 
   .ducks-quiz:hover, .md-quiz:hover, .nhl-quiz:hover, .hof-quiz:hover {
-  font-size: 2rem;
-  gap: 60px;
-  border: 1px solid none;
-  height: 80px;
-  width: 300px;
-  }
-  /*--ducks-elements-above--*/
+  cursor: pointer;
+  } 
+  
 
   .nhl-head {
   color: rgb(228,229,230);
@@ -216,12 +212,8 @@ body {
   margin: 10px 0;
   text-align: center;
   border-radius: 4px;
-   }
-
-  /* .btn:hover { 
- background: rgb(228,229,230);
-  color: black; 
-  } - no hovering on mobile. affects button colour on mobile */
+  cursor: pointer;
+ }
 
   #next-btn {
   background: #001e4d;
@@ -307,8 +299,7 @@ body {
     max-width: 500px;
 
   }
-  }
-
+}
 
   /*Larger devices (laptops and desktops 950px and up )*/
   @media screen and (min-width:950px) {
@@ -323,7 +314,7 @@ body {
 
   }
 
-  @media screen and(max-width:600px) {
+  @media screen and (max-width:600px) {
 
   .ducks-image {
   width: 200px;
@@ -334,7 +325,6 @@ body {
   width: 200px;
   height: 200px;
   margin: auto 20px;
-  }
+  }}
 
-  }
   
