@@ -37,6 +37,8 @@ This quiz features some of the most popular players currently playing in the <ab
 
 This section quizzes the user on some of the greatest players to play hockey and are members of the Hockey Hall of Fame.
 
+![hof-home-page](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/03d808a7-856b-4277-992e-9c3eadb76f6d)
+
 # Quiz Features
 
 ## Multiple Choice
