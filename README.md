@@ -162,6 +162,24 @@ When the user has completed a quiz, an alert window will appear on their screen 
 
 ![ios-wireframe](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/dfdd27d8-e73c-4f89-8595-ba2bdafa9671)
 
+# Credits 
+
+* I would like to thank my facilitator, my mentor, and my fellow classmates for their help with both my webpage and my README file.
+
+  ## Media
+
+  * A large portion of the player portraits that were used in this site were pulled from [NHL.com](https://www.nhl.com), especially the [players page](https://www.nhl.com/player).
+ 
+  * The iamge for one player, Vladislav Tretiak, had to be sourced from this site [Vladislav Tretiak](https://the-avocado.org/2021/04/25/the-vladislav-tretiak-night-thread/) as he never played in the NHL and therefore does not have an official portrait.
+ 
+  * The images for the Anaheim Ducks, NHL and Hockey Hall of Fame were sourced from Wikipedia. The Mighty Ducks logo was sourced from [PNG Wing](https://www.pngwing.com/en/free-png-ivtui).
+ 
+  ## Content
+* Additional JavaScript for the more advanced JavaScript quiz elements was modelled on [European countries](https://github.com/l-copeman/european-countries)
+
+* I learned much of the easier JavaScript properties from the [Net Ninja](https://www.youtube.com/watch?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET) YouTube Channel as I found the Code Institute LMS more difficult to grasp.
+
+* I used the following book [JavaScript in Easy Steps](https://ineasysteps.com/products-page/javascript-easy-steps-6th-edition/) to learn more about the JavaScript language. I purchased this book prior to the commencement of this course.
 
 
 
