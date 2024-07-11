@@ -140,6 +140,16 @@ When the user has completed a quiz, an alert window will appear on their screen 
   Duckduckgo. This error only seems to occur within the desktop browser as I deployed my page to the Firefox mobile browser and did not encounter any issues. After further research 
   online, I found that this appeared to be a common issue with Firefox not displaying background-gradient patterns in a similar fashion to other browsers, both desktop and mobile.
 
+ # Deployment
+
+  * The site was created using Gitpod and deployed through Github using the repository "NHL-Player-Quiz".
+  * the deployment steps were as follows:
+    ** In Github repositories page click 'new'. 
+    ** Change repository name to the name of one's choosing and allow public access. Adda README file and click 'create repository'.
+    ** In Github repository click 'settings' tab.
+    ** From 'settings' menu, choose 'page' tab followed by 'default branch' and select 'master branch'.
+    ** After master branch has been selected, the page will be refreshed and confirmation that your deployment has been successful.
+
 
 
 
