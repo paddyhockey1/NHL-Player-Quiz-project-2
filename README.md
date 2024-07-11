@@ -82,5 +82,21 @@ When the user has completed a quiz, an alert window will appear on their screen 
 
 ![window-alert](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/18192791-7287-4fbf-b86f-1ce16390addb)
 
+## Future Features
+
+* I would like to include more interactivity within the site on the user's completion of the quiz. These could include: background-music, animations and potentially video of the players in the quiz.
+
+* A feature whre the player's score could be entered and stored would add to the user experience.
+
+* The inclusion of more potential questions for each topic contained within the page and the option to randomize both the questions asked and the order in which they appear would make the quiz feature less predictable. The option of ten questions instead of the current five would also add longevity to the quiz aspect of the site.
+
+* I would llike to include more topics within a future site. These could include seperating players by position, by decade played and by each team.
+
+* A timer could be incoporated to inform the user of how long they have spent on each quiz and possibly each question. There could also be a time-limit for both individual questions and quizzes.
+
+* A more visually appealing home page could be added with more advanced HTML and CSS coding to make the divs and images create a more uniform shape or design.
+
+
+
 
 
