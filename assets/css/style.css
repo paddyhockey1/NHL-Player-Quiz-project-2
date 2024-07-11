@@ -216,8 +216,7 @@ body {
   margin: 10px 0;
   text-align: center;
   border-radius: 4px;
- 
-    }
+   }
 
   /* .btn:hover { 
  background: rgb(228,229,230);
@@ -240,7 +239,6 @@ body {
   background-color: white;
   color: black;
   font-weight: bold;
-
   }
 
   .wrong {
@@ -252,7 +250,6 @@ body {
   .btn {
   margin: 5px;
   padding: 10px;
- 
   }
 
 #question img{
@@ -268,7 +265,6 @@ body {
   }
 
   #stop-quiz {
-
   text-decoration: none;
   color: rgb(228,229,230);
   background-color: black;
@@ -282,7 +278,6 @@ body {
   text-align: center;
   padding: 10px;
   margin-top: 30px;
-
   }
 
   .container {
@@ -340,5 +335,6 @@ body {
   height: 200px;
     margin: auto 20px;
   }
-}
+
+  }
   
