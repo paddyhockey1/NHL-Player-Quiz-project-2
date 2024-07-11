@@ -150,6 +150,19 @@ When the user has completed a quiz, an alert window will appear on their screen 
     ** From 'settings' menu, choose 'page' tab followed by 'default branch' and select 'master branch'.
     ** After master branch has been selected, the page will be refreshed and confirmation that your deployment has been successful.
 
+    # Wireframes
+
+** The wireframes for this site were created using [Balsamiq Cloud](https://balsamiq.com/wireframes/cloud/?gad_source=1&gclid=EAIaIQobChMIqcWb9uWehwMVYoBQBh3g7gY8EAAYASAAEgLD1PD_BwE)
+
+## Home Page (desktop)
+
+![desktop-wireframe](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/b61766e4-77fe-4456-910a-651a7254929c)
+
+## Quiz Page (mobile)
+
+![ios-wireframe](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/dfdd27d8-e73c-4f89-8595-ba2bdafa9671)
+
+
 
 
 
