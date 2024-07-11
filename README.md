@@ -116,6 +116,20 @@ When the user has completed a quiz, an alert window will appear on their screen 
 
 ![js-hint](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/3efec5b4-e6f5-4e36-b1df-1bc66bfa8a00)
 
+## Lighthouse Report
+
+![lighthouse-report-desktop](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/9e378fba-4bc8-4dd6-8e15-2a90aa51e822)
+
+* Lighthouse found that some of the images I used were bigger than the CSS styling I coded. I used the smaller image dimensions to increase the aesthetics of the pages.
+
+## Wave Report
+
+![wave-report](https://github.com/paddyhockey1/NHL-Player-Quiz/assets/170856162/9372523e-8fdd-4e5c-8827-f37b9055b5fb)
+
+* Wave found no errors but recommended some improvements regarding contrast in the headings for elements. The program was reacting to the text-shadow property and the similiarity between that colour and the page background colour.
+
+
+
 
 
 
